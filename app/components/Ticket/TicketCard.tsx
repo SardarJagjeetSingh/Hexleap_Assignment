@@ -11,7 +11,7 @@ interface Props{
 
 const TicketCard = ({image, title, date, place,button}:Props) => {
   return (
-    <div className='h-[90vh] w-[80%] mx-auto my-0 bg-[#3B3E47] dark:bg-white dark:shadow-lg max-[620px]:w-full max-[620px]:h-[70vh]'>
+    <div className='h-[90vh] w-[80%] mx-auto my-0 bg-[#3B3E47] dark:bg-white dark:shadow-lg max-[620px]:w-full max-[620px]:h-[75vh]'>
               <Image src={image} alt='Ticket Image' height={500} width={500} objectFit="cover" />
               <h1 className='text-white text-xl font-bold mb-2 -mt-4 md:text-xl dark:text-dark max-[620px]:text-xl'>{title}</h1>
               <h2 className='text-white text-lg font-light mb-2 dark:text-dark max-[620px]:text-sm'>{date}</h2>

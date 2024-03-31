@@ -29,7 +29,7 @@ const responsive = {
 const Ticket = () => {
   return (
     <div className='h-[140vh] w-[100%] max-[620px]:w-100% max-[620px]:h-[150vh]'>
-      <div className='h-full w-[90%] text-center mx-auto my-0 flex flex-col bg-gradient-to-r from-[#18282A] to-[#221A2C] max-[620px]:w-100% max-[620px]:h-[120vh] max-[620px]:m-[3vh] max-[620px]:mx-auto'>
+      <div className='h-full w-[90%] text-center mx-auto my-0 flex flex-col bg-gradient-to-r from-[#18282A] to-[#221A2C] max-[620px]:w-100% max-[620px]:h-[125vh] max-[620px]:m-[3vh] max-[620px]:mx-auto'>
         <div className=' h-full dark:bg-gradient-to-r from-[#F9F8FF] to-[#F3F9FF]'>
           <div className='py-16 max-[620px]:h-[45vh] max-[620px]:mx-auto'>
             <h1 className='text-5xl text-white text-center font-bold dark:text-dark max-[620px]:text-[38px] max-[620px]:leading-snug'>Collection Spotlight</h1>
